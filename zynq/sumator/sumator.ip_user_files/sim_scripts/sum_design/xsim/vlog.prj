@@ -1,0 +1,16 @@
+verilog xil_defaultlib --include "../../../../sumator.srcs/sources_1/bd/sum_design/ipshared/ec67/hdl" --include "../../../../sumator.srcs/sources_1/bd/sum_design/ipshared/70cf/hdl" --include "../../../../sumator.srcs/sources_1/bd/sum_design/ip/sum_design_processing_system7_0_0" \
+"../../../bd/sum_design/ip/sum_design_processing_system7_0_0/sim/sum_design_processing_system7_0_0.v" \
+"../../../bd/sum_design/ipshared/ffa9/hdl/sum_ip_v1_0_S00_AXI.v" \
+
+sv xil_defaultlib --include "../../../../sumator.srcs/sources_1/bd/sum_design/ipshared/ec67/hdl" --include "../../../../sumator.srcs/sources_1/bd/sum_design/ipshared/70cf/hdl" --include "../../../../sumator.srcs/sources_1/bd/sum_design/ip/sum_design_processing_system7_0_0" \
+"../../../bd/sum_design/ipshared/ffa9/hdl/sumator.sv" \
+
+verilog xil_defaultlib --include "../../../../sumator.srcs/sources_1/bd/sum_design/ipshared/ec67/hdl" --include "../../../../sumator.srcs/sources_1/bd/sum_design/ipshared/70cf/hdl" --include "../../../../sumator.srcs/sources_1/bd/sum_design/ip/sum_design_processing_system7_0_0" \
+"../../../bd/sum_design/ipshared/ffa9/hdl/sum_ip_v1_0.v" \
+"../../../bd/sum_design/ip/sum_design_sum_ip_0_0/sim/sum_design_sum_ip_0_0.v" \
+"../../../bd/sum_design/sim/sum_design.v" \
+"../../../bd/sum_design/ip/sum_design_auto_pc_0/sim/sum_design_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

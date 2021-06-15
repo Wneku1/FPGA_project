@@ -1,0 +1,37 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Jun 13 10:45:07 2021
+| Host         : DESKTOP-8TR4F8Q running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'sumator_design_sum_ip_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of sumator_design_sum_ip_0_0 (xilinx.com:user:sum_ip:1.0 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Jun 13 10:44:40 2021
+| Host         : DESKTOP-8TR4F8Q running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'sumator_design_sum_ip_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of sumator_design_sum_ip_0_0 (xilinx.com:user:sum_ip:1.0) from (Rev. 1) to (Rev. 3)
+

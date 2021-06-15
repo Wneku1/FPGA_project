@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Jun 14 16:40:48 2021
+# Process ID: 17840
+# Current directory: C:/Users/sebas/Desktop/newSDUPproject/uBBezPar/sumator
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16208 C:\Users\sebas\Desktop\newSDUPproject\uBBezPar\sumator\sumator.xpr
+# Log file: C:/Users/sebas/Desktop/newSDUPproject/uBBezPar/sumator/vivado.log
+# Journal file: C:/Users/sebas/Desktop/newSDUPproject/uBBezPar/sumator\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sebas/Desktop/newSDUPproject/uBBezPar/sumator/sumator.xpr
+update_compile_order -fileset sources_1

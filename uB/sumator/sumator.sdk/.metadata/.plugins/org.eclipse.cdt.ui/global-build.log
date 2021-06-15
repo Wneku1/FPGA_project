@@ -1,0 +1,1325 @@
+10:46:57 **** Build of project sumator_app_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_8/src"
+make -C microblaze_0/libsrc/cpu_v2_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_8/src"
+make -C microblaze_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/sum_ip_v1_0/src"
+make -C microblaze_0/libsrc/sum_ip_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_8/src"
+make -C microblaze_0/libsrc/cpu_v2_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_8/src"
+make -C microblaze_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+inbyte.c: In function 'inbyte':
+inbyte.c:11:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+outbyte.c: In function 'outbyte':
+outbyte.c:11:19: warning: unused parameter 'c' [-Wunused-parameter]
+ void outbyte(char c) {
+                   ^
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/sum_ip_v1_0/src"
+make -C microblaze_0/libsrc/sum_ip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling sum_ip..."
+sum_ip_selftest.c: In function 'SUM_IP_Reg_SelfTest':
+sum_ip_selftest.c:52:55: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( SUM_IP_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                       ^~
+sum_ip_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+'Finished building libraries'
+
+**** Build of configuration Debug for project sumator_app ****
+
+Nothing to build for project sumator_app
+10:47:28 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2018.3/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.3.1/../../../../microblaze-xilinx-elf/bin/ld.exe: sumator_app.elf section `.stack' will not fit in region `microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem'
+c:/xilinx/sdk/2018.3/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.3.1/../../../../microblaze-xilinx-elf/bin/ld.exe: region `microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem' overflowed by 680 bytes
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: sumator_app.elf] Error 1
+10:48:05 **** Clean-only build of configuration Debug for project sumator_app ****
+make clean 
+rm -rf  ./src/main.o ./src/platform.o  ./src/main.d ./src/platform.d  sumator_app.elf.size  sumator_app.elf
+' '
+
+****  of configuration Debug for project sumator_app ****
+
+Nothing to build for project sumator_app
+10:48:16 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2018.3/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.3.1/../../../../microblaze-xilinx-elf/lib/le/crtinit.o: In function `_crtinit':
+(.text+0x78): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: sumator_app.elf] Error 1
+10:48:59 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2018.3/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.3.1/../../../../microblaze-xilinx-elf/lib/le/crtinit.o: In function `_crtinit':
+(.text+0x78): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: sumator_app.elf] Error 1
+10:49:06 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:44:2: warning: implicit declaration of function 'MY_IP_mWriteReg'; did you mean 'SUM_IP_mWriteReg'? [-Wimplicit-function-declaration]
+  MY_IP_mWriteReg(SUM_BASE_ADDR, CLEAR, 1);
+  ^~~~~~~~~~~~~~~
+  SUM_IP_mWriteReg
+../src/main.c:22:23: error: 'XPAR_MY_IP_0_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_SUM_IP_0_S00_AXI_BASEADDR'?
+ #define SUM_BASE_ADDR XPAR_MY_IP_0_S00_AXI_BASEADDR
+                       ^
+../src/main.c:44:18: note: in expansion of macro 'SUM_BASE_ADDR'
+  MY_IP_mWriteReg(SUM_BASE_ADDR, CLEAR, 1);
+                  ^~~~~~~~~~~~~
+../src/main.c:22:23: note: each undeclared identifier is reported only once for each function it appears in
+ #define SUM_BASE_ADDR XPAR_MY_IP_0_S00_AXI_BASEADDR
+                       ^
+../src/main.c:44:18: note: in expansion of macro 'SUM_BASE_ADDR'
+  MY_IP_mWriteReg(SUM_BASE_ADDR, CLEAR, 1);
+                  ^~~~~~~~~~~~~
+../src/main.c:23:15: error: 'MY_IP_S00_AXI_SLV_REG0_OFFSET' undeclared (first use in this function); did you mean 'SUM_IP_S00_AXI_SLV_REG0_OFFSET'?
+ #define CLEAR MY_IP_S00_AXI_SLV_REG0_OFFSET
+               ^
+../src/main.c:44:33: note: in expansion of macro 'CLEAR'
+  MY_IP_mWriteReg(SUM_BASE_ADDR, CLEAR, 1);
+                                 ^~~~~
+../src/main.c:24:20: error: 'MY_IP_S00_AXI_SLV_REG1_OFFSET' undeclared (first use in this function); did you mean 'MY_IP_S00_AXI_SLV_REG0_OFFSET'?
+ #define INPUT_ADDR MY_IP_S00_AXI_SLV_REG1_OFFSET
+                    ^
+../src/main.c:59:34: note: in expansion of macro 'INPUT_ADDR'
+   MY_IP_mWriteReg(SUM_BASE_ADDR, INPUT_ADDR, arg);
+                                  ^~~~~~~~~~
+../src/main.c:63:11: warning: implicit declaration of function 'MY_IP_mReadReg'; did you mean 'SUM_IP_mReadReg'? [-Wimplicit-function-declaration]
+   while( (MY_IP_mReadReg(SUM_BASE_ADDR, READY)) != 1);
+           ^~~~~~~~~~~~~~
+           SUM_IP_mReadReg
+../src/main.c:25:15: error: 'MY_IP_S00_AXI_SLV_REG2_OFFSET' undeclared (first use in this function); did you mean 'MY_IP_S00_AXI_SLV_REG1_OFFSET'?
+ #define READY MY_IP_S00_AXI_SLV_REG2_OFFSET
+               ^
+../src/main.c:63:41: note: in expansion of macro 'READY'
+   while( (MY_IP_mReadReg(SUM_BASE_ADDR, READY)) != 1);
+                                         ^~~~~
+../src/main.c:26:21: error: 'MY_IP_S00_AXI_SLV_REG3_OFFSET' undeclared (first use in this function); did you mean 'MY_IP_S00_AXI_SLV_REG2_OFFSET'?
+ #define OUTPUT_ADDR MY_IP_S00_AXI_SLV_REG3_OFFSET
+                     ^
+../src/main.c:72:49: note: in expansion of macro 'OUTPUT_ADDR'
+   uint8_t debug = MY_IP_mReadReg(SUM_BASE_ADDR, OUTPUT_ADDR);
+                                                 ^~~~~~~~~~~
+../src/main.c:72:11: warning: unused variable 'debug' [-Wunused-variable]
+   uint8_t debug = MY_IP_mReadReg(SUM_BASE_ADDR, OUTPUT_ADDR);
+           ^~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+10:49:25 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:18:0:
+../src/main.c: In function 'calculate_sum':
+../src/main.c:22:23: error: 'XPAR_MY_IP_0_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_SUM_IP_0_S00_AXI_BASEADDR'?
+ #define SUM_BASE_ADDR XPAR_MY_IP_0_S00_AXI_BASEADDR
+                       ^
+../../sumator_app_bsp/microblaze_0/include/sum_ip.h:35:15: note: in definition of macro 'SUM_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^~~~~~~~~~~
+../src/main.c:44:19: note: in expansion of macro 'SUM_BASE_ADDR'
+  SUM_IP_mWriteReg(SUM_BASE_ADDR, CLEAR, 1);
+                   ^~~~~~~~~~~~~
+../src/main.c:22:23: note: each undeclared identifier is reported only once for each function it appears in
+ #define SUM_BASE_ADDR XPAR_MY_IP_0_S00_AXI_BASEADDR
+                       ^
+../../sumator_app_bsp/microblaze_0/include/sum_ip.h:35:15: note: in definition of macro 'SUM_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^~~~~~~~~~~
+../src/main.c:44:19: note: in expansion of macro 'SUM_BASE_ADDR'
+  SUM_IP_mWriteReg(SUM_BASE_ADDR, CLEAR, 1);
+                   ^~~~~~~~~~~~~
+../src/main.c:23:15: error: 'MY_IP_S00_AXI_SLV_REG0_OFFSET' undeclared (first use in this function); did you mean 'SUM_IP_S00_AXI_SLV_REG0_OFFSET'?
+ #define CLEAR MY_IP_S00_AXI_SLV_REG0_OFFSET
+               ^
+../../sumator_app_bsp/microblaze_0/include/sum_ip.h:35:31: note: in definition of macro 'SUM_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                               ^~~~~~~~~
+../src/main.c:44:34: note: in expansion of macro 'CLEAR'
+  SUM_IP_mWriteReg(SUM_BASE_ADDR, CLEAR, 1);
+                                  ^~~~~
+../src/main.c:24:20: error: 'MY_IP_S00_AXI_SLV_REG1_OFFSET' undeclared (first use in this function); did you mean 'MY_IP_S00_AXI_SLV_REG0_OFFSET'?
+ #define INPUT_ADDR MY_IP_S00_AXI_SLV_REG1_OFFSET
+                    ^
+../../sumator_app_bsp/microblaze_0/include/sum_ip.h:35:31: note: in definition of macro 'SUM_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                               ^~~~~~~~~
+../src/main.c:59:35: note: in expansion of macro 'INPUT_ADDR'
+   SUM_IP_mWriteReg(SUM_BASE_ADDR, INPUT_ADDR, arg);
+                                   ^~~~~~~~~~
+../src/main.c:25:15: error: 'MY_IP_S00_AXI_SLV_REG2_OFFSET' undeclared (first use in this function); did you mean 'MY_IP_S00_AXI_SLV_REG1_OFFSET'?
+ #define READY MY_IP_S00_AXI_SLV_REG2_OFFSET
+               ^
+../../sumator_app_bsp/microblaze_0/include/sum_ip.h:55:31: note: in definition of macro 'SUM_IP_mReadReg'
+     Xil_In32((BaseAddress) + (RegOffset))
+                               ^~~~~~~~~
+../src/main.c:63:42: note: in expansion of macro 'READY'
+   while( (SUM_IP_mReadReg(SUM_BASE_ADDR, READY)) != 1);
+                                          ^~~~~
+../src/main.c:66:3: warning: implicit declaration of function 'MY_IP_mWriteReg'; did you mean 'SUM_IP_mWriteReg'? [-Wimplicit-function-declaration]
+   MY_IP_mWriteReg(SUM_BASE_ADDR, CLEAR, 0);
+   ^~~~~~~~~~~~~~~
+   SUM_IP_mWriteReg
+In file included from ../src/main.c:18:0:
+../src/main.c:26:21: error: 'MY_IP_S00_AXI_SLV_REG3_OFFSET' undeclared (first use in this function); did you mean 'MY_IP_S00_AXI_SLV_REG2_OFFSET'?
+ #define OUTPUT_ADDR MY_IP_S00_AXI_SLV_REG3_OFFSET
+                     ^
+../../sumator_app_bsp/microblaze_0/include/sum_ip.h:55:31: note: in definition of macro 'SUM_IP_mReadReg'
+     Xil_In32((BaseAddress) + (RegOffset))
+                               ^~~~~~~~~
+../src/main.c:72:50: note: in expansion of macro 'OUTPUT_ADDR'
+   uint8_t debug = SUM_IP_mReadReg(SUM_BASE_ADDR, OUTPUT_ADDR);
+                                                  ^~~~~~~~~~~
+../src/main.c:72:11: warning: unused variable 'debug' [-Wunused-variable]
+   uint8_t debug = SUM_IP_mReadReg(SUM_BASE_ADDR, OUTPUT_ADDR);
+           ^~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+10:49:41 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:66:3: warning: implicit declaration of function 'MY_IP_mWriteReg'; did you mean 'SUM_IP_mWriteReg'? [-Wimplicit-function-declaration]
+   MY_IP_mWriteReg(SUM_BASE_ADDR, CLEAR, 0);
+   ^~~~~~~~~~~~~~~
+   SUM_IP_mWriteReg
+../src/main.c:72:11: warning: unused variable 'debug' [-Wunused-variable]
+   uint8_t debug = SUM_IP_mReadReg(SUM_BASE_ADDR, OUTPUT_ADDR);
+           ^~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `calculate_sum':
+C:\Users\sebas\Desktop\newZDUPproject\uBBezPar\sumator\sumator.sdk\sumator_app\Debug/../src/main.c:66: undefined reference to `MY_IP_mWriteReg'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: sumator_app.elf] Error 1
+10:49:47 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:72:11: warning: unused variable 'debug' [-Wunused-variable]
+   uint8_t debug = SUM_IP_mReadReg(SUM_BASE_ADDR, OUTPUT_ADDR);
+           ^~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2512	    268	   3108	   5888	   1700	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+10:49:52 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2508	    268	   3112	   5888	   1700	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+10:52:33 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2508	    268	   3112	   5888	   1700	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+10:52:45 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2556	    268	   3112	   5936	   1730	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+10:52:47 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2556	    268	   3112	   5936	   1730	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+10:52:51 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2556	    268	   3112	   5936	   1730	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+10:52:53 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2556	    268	   3112	   5936	   1730	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+10:53:49 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2556	    268	   3112	   5936	   1730	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:02:09 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2556	    268	   3112	   5936	   1730	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:02:21 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2556	    268	   3112	   5936	   1730	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:02:52 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2600	    268	   3108	   5976	   1758	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:02:55 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2600	    268	   3108	   5976	   1758	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:07:31 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2600	    268	   3108	   5976	   1758	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:08:04 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:46:10: warning: unused variable 'liczby_do_zesumowania' [-Wunused-variable]
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1};
+          ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2268	    268	   3112	   5648	   1610	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:09:10 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:46:10: warning: unused variable 'liczby_do_zesumowania' [-Wunused-variable]
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1};
+          ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2244	    268	   3112	   5624	   15f8	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:09:17 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:46:10: warning: unused variable 'liczby_do_zesumowania' [-Wunused-variable]
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1};
+          ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2244	    268	   3112	   5624	   15f8	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:11:38 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:46:10: warning: unused variable 'liczby_do_zesumowania' [-Wunused-variable]
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1};
+          ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2248	    268	   3108	   5624	   15f8	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:11:45 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:46:10: warning: unused variable 'liczby_do_zesumowania' [-Wunused-variable]
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1};
+          ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2248	    268	   3108	   5624	   15f8	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:12:34 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:46:10: warning: unused variable 'liczby_do_zesumowania' [-Wunused-variable]
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1};
+          ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2244	    268	   3112	   5624	   15f8	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:15:31 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:46:10: warning: unused variable 'liczby_do_zesumowania' [-Wunused-variable]
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1};
+          ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2244	    268	   3112	   5624	   15f8	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:15:38 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:46:10: warning: unused variable 'liczby_do_zesumowania' [-Wunused-variable]
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1};
+          ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2244	    268	   3112	   5624	   15f8	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:22:45 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:46:10: warning: unused variable 'liczby_do_zesumowania' [-Wunused-variable]
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1};
+          ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2244	    268	   3112	   5624	   15f8	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:26:38 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:46:10: warning: unused variable 'liczby_do_zesumowania' [-Wunused-variable]
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1};
+          ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2244	    268	   3112	   5624	   15f8	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:28:16 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:46:10: warning: unused variable 'liczby_do_zesumowania' [-Wunused-variable]
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1};
+          ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2244	    268	   3112	   5624	   15f8	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:28:25 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:46:10: warning: unused variable 'liczby_do_zesumowania' [-Wunused-variable]
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1};
+          ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2268	    268	   3112	   5648	   1610	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:28:34 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:48:10: warning: unused variable 'liczby_do_zesumowania' [-Wunused-variable]
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1};
+          ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2268	    268	   3112	   5648	   1610	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:28:37 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:48:10: warning: unused variable 'liczby_do_zesumowania' [-Wunused-variable]
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1};
+          ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2268	    268	   3112	   5648	   1610	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:28:41 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:48:10: warning: unused variable 'liczby_do_zesumowania' [-Wunused-variable]
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1};
+          ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2268	    268	   3112	   5648	   1610	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:28:58 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:49:10: warning: unused variable 'liczby_do_zesumowania' [-Wunused-variable]
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1};
+          ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2268	    268	   3112	   5648	   1610	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:29:07 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:49:10: warning: unused variable 'liczby_do_zesumowania' [-Wunused-variable]
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1};
+          ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2268	    268	   3112	   5648	   1610	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:29:13 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:50:10: warning: unused variable 'liczby_do_zesumowania' [-Wunused-variable]
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1};
+          ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2268	    268	   3112	   5648	   1610	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:29:15 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:50:10: warning: unused variable 'liczby_do_zesumowania' [-Wunused-variable]
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1};
+          ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2268	    268	   3112	   5648	   1610	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:29:17 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:51:10: warning: unused variable 'liczby_do_zesumowania' [-Wunused-variable]
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1};
+          ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2268	    268	   3112	   5648	   1610	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:29:20 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:50:10: warning: unused variable 'liczby_do_zesumowania' [-Wunused-variable]
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1};
+          ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2268	    268	   3112	   5648	   1610	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:29:32 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:50:10: warning: unused variable 'liczby_do_zesumowania' [-Wunused-variable]
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1};
+          ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2316	    268	   3112	   5696	   1640	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:29:38 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2600	    268	   3108	   5976	   1758	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:29:53 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2600	    268	   3108	   5976	   1758	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:29:59 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2600	    268	   3108	   5976	   1758	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:30:05 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2600	    268	   3108	   5976	   1758	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:33:19 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2576	    268	   3108	   5952	   1740	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:36:03 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:18:0:
+../src/main.c: In function 'calculate_sum':
+../src/main.c:53:63: error: expected ')' before numeric constant
+  SUM_IP_mWriteReg(SUM_BASE_ADDR, NUMB_BITS, 6 << OFFSET_NUMB  4 << OFFSET_BITS);
+                                                               ^
+../../sumator_app_bsp/microblaze_0/include/sum_ip.h:35:49: note: in definition of macro 'SUM_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^~~~
+../src/main.c:52:11: warning: unused variable 'configReg' [-Wunused-variable]
+  uint32_t configReg = 0;
+           ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+11:36:30 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2540	    268	   3112	   5920	   1720	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:37:29 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2528	    268	   3108	   5904	   1710	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:39:04 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2528	    268	   3108	   5904	   1710	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:39:09 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2528	    268	   3108	   5904	   1710	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:39:46 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2528	    268	   3108	   5904	   1710	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:40:35 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:18:0:
+../src/main.c: In function 'calculate_sum':
+../src/main.c:71:35: error: 'PROCESS' undeclared (first use in this function)
+   SUM_IP_mWriteReg(SUM_BASE_ADDR, PROCESS, 1 << OFFSET_PROCESS);
+                                   ^
+../../sumator_app_bsp/microblaze_0/include/sum_ip.h:35:31: note: in definition of macro 'SUM_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                               ^~~~~~~~~
+../src/main.c:71:35: note: each undeclared identifier is reported only once for each function it appears in
+   SUM_IP_mWriteReg(SUM_BASE_ADDR, PROCESS, 1 << OFFSET_PROCESS);
+                                   ^
+../../sumator_app_bsp/microblaze_0/include/sum_ip.h:35:31: note: in definition of macro 'SUM_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                               ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+11:40:41 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2528	    268	   3108	   5904	   1710	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:41:01 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2576	    268	   3108	   5952	   1740	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:41:53 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2576	    268	   3108	   5952	   1740	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:43:53 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2576	    268	   3108	   5952	   1740	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:44:46 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2576	    268	   3108	   5952	   1740	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:46:39 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2576	    268	   3108	   5952	   1740	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:53:39 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2576	    268	   3108	   5952	   1740	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:53:52 **** Auto Build of configuration Debug for project sumator_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../sumator_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sumator_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2588	    268	   3112	   5968	   1750	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '

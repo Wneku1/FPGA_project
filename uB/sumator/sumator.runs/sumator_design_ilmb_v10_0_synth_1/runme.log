@@ -1,0 +1,4 @@
+
+*** Running vivado
+    with args -log sumator_design_ilmb_v10_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source sumator_design_ilmb_v10_0.tcl
+

@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Jun 14 16:40:48 2021
+# Process ID: 17840
+# Current directory: C:/Users/sebas/Desktop/newSDUPproject/uBBezPar/sumator
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16208 C:\Users\sebas\Desktop\newSDUPproject\uBBezPar\sumator\sumator.xpr
+# Log file: C:/Users/sebas/Desktop/newSDUPproject/uBBezPar/sumator/vivado.log
+# Journal file: C:/Users/sebas/Desktop/newSDUPproject/uBBezPar/sumator\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sebas/Desktop/newSDUPproject/uBBezPar/sumator/sumator.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/sebas/Desktop/newZDUPproject/uBBezPar/sumator' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/sebas/Desktop/newSDUPproject/uBBezPar/ip_repo/sum_ip_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 746.629 ; gain = 134.406
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 14 17:30:55 2021...

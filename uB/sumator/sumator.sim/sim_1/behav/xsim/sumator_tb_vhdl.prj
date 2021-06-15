@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../sumator.ip_user_files/bd/sumator_design/ip/sumator_design_microblaze_0_0/sim/sumator_design_microblaze_0_0.vhd" \
+"../../../../sumator.ip_user_files/bd/sumator_design/ip/sumator_design_dlmb_v10_0/sim/sumator_design_dlmb_v10_0.vhd" \
+"../../../../sumator.ip_user_files/bd/sumator_design/ip/sumator_design_ilmb_v10_0/sim/sumator_design_ilmb_v10_0.vhd" \
+"../../../../sumator.ip_user_files/bd/sumator_design/ip/sumator_design_dlmb_bram_if_cntlr_0/sim/sumator_design_dlmb_bram_if_cntlr_0.vhd" \
+"../../../../sumator.ip_user_files/bd/sumator_design/ip/sumator_design_ilmb_bram_if_cntlr_0/sim/sumator_design_ilmb_bram_if_cntlr_0.vhd" \
+"../../../../sumator.ip_user_files/bd/sumator_design/ip/sumator_design_mdm_1_0/sim/sumator_design_mdm_1_0.vhd" \
+"../../../../sumator.ip_user_files/bd/sumator_design/ip/sumator_design_rst_clk_wiz_1_100M_0/sim/sumator_design_rst_clk_wiz_1_100M_0.vhd" \
+
+# Do not sort compile order
+nosort

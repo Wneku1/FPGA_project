@@ -1,0 +1,2675 @@
+10:29:05 **** Build of project sumator_app_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/canps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/canps_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sum_ip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/sum_ip_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/canps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/canps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling canps"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/sum_ip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/sum_ip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sum_ip..."
+sum_ip_selftest.c: In function 'SUM_IP_Reg_SelfTest':
+sum_ip_selftest.c:52:55: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( SUM_IP_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                       ^~
+sum_ip_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+10:29:22 **** Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19352	   1144	  22568	  43064	   a838	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+10:29:55 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+10:30:45 **** Clean-only build of configuration Debug for project sumator_app ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  sumator_app.elf.size  sumator_app.elf
+' '
+10:30:45 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25584	   1144	  22568	  49296	   c090	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+10:30:56 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+10:32:43 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25584	   1144	  22568	  49296	   c090	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+10:33:09 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25592	   1144	  22568	  49304	   c098	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+10:33:39 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25592	   1144	  22568	  49304	   c098	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+10:33:52 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+10:35:03 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25592	   1144	  22568	  49304	   c098	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+10:35:06 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+10:35:16 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25592	   1144	  22568	  49304	   c098	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:56:55 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:19:0:
+../src/main.c: In function 'calculate_sum':
+../src/main.c:36:34: error: 'NUMB_NUMBS' undeclared (first use in this function)
+  SUM_IP_mWriteReg(SUM_BASE_ADDR, NUMB_NUMBS, M);
+                                  ^
+../../sumator_app_bsp/ps7_cortexa9_0/include/sum_ip.h:35:31: note: in definition of macro 'SUM_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                               ^~~~~~~~~
+../src/main.c:36:34: note: each undeclared identifier is reported only once for each function it appears in
+  SUM_IP_mWriteReg(SUM_BASE_ADDR, NUMB_NUMBS, M);
+                                  ^
+../../sumator_app_bsp/ps7_cortexa9_0/include/sum_ip.h:35:31: note: in definition of macro 'SUM_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                               ^~~~~~~~~
+../src/main.c:37:34: error: 'NUMB_BITS' undeclared (first use in this function); did you mean 'NUMB_NUMBS'?
+  SUM_IP_mWriteReg(SUM_BASE_ADDR, NUMB_BITS, N);
+                                  ^
+../../sumator_app_bsp/ps7_cortexa9_0/include/sum_ip.h:35:31: note: in definition of macro 'SUM_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                               ^~~~~~~~~
+../src/main.c:38:34: error: 'CLEAR' undeclared (first use in this function)
+  SUM_IP_mWriteReg(SUM_BASE_ADDR, CLEAR, 1);
+                                  ^
+../../sumator_app_bsp/ps7_cortexa9_0/include/sum_ip.h:35:31: note: in definition of macro 'SUM_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                               ^~~~~~~~~
+../src/main.c:53:35: error: 'PROCESS' undeclared (first use in this function)
+   SUM_IP_mWriteReg(SUM_BASE_ADDR, PROCESS, 1);
+                                   ^
+../../sumator_app_bsp/ps7_cortexa9_0/include/sum_ip.h:35:31: note: in definition of macro 'SUM_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                               ^~~~~~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+11:57:48 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:19:0:
+../src/main.c: In function 'calculate_sum':
+../src/main.c:48:34: error: 'CLEAR' undeclared (first use in this function)
+  SUM_IP_mWriteReg(SUM_BASE_ADDR, CLEAR, 0);
+                                  ^
+../../sumator_app_bsp/ps7_cortexa9_0/include/sum_ip.h:35:31: note: in definition of macro 'SUM_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                               ^~~~~~~~~
+../src/main.c:48:34: note: each undeclared identifier is reported only once for each function it appears in
+  SUM_IP_mWriteReg(SUM_BASE_ADDR, CLEAR, 0);
+                                  ^
+../../sumator_app_bsp/ps7_cortexa9_0/include/sum_ip.h:35:31: note: in definition of macro 'SUM_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                               ^~~~~~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+11:57:57 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25592	   1144	  22568	  49304	   c098	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+11:58:24 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:00:43 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25592	   1144	  22568	  49304	   c098	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+12:00:49 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:43:44: warning: excess elements in array initializer
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1, 2};
+                                            ^
+../src/main.c:43:44: note: (near initialization for 'liczby_do_zesumowania')
+../src/main.c:43:47: warning: excess elements in array initializer
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1, 2};
+                                               ^
+../src/main.c:43:47: note: (near initialization for 'liczby_do_zesumowania')
+../src/main.c:43:50: warning: excess elements in array initializer
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1, 2};
+                                                  ^
+../src/main.c:43:50: note: (near initialization for 'liczby_do_zesumowania')
+../src/main.c:43:53: warning: excess elements in array initializer
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1, 2};
+                                                     ^
+../src/main.c:43:53: note: (near initialization for 'liczby_do_zesumowania')
+../src/main.c:43:56: warning: excess elements in array initializer
+  uint8_t liczby_do_zesumowania[M] = {2, 2, 2, 1, 1, 1, 2};
+                                                        ^
+../src/main.c:43:56: note: (near initialization for 'liczby_do_zesumowania')
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25588	   1144	  22568	  49300	   c094	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+12:01:12 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25592	   1144	  22568	  49304	   c098	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+12:01:23 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:02:04 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25592	   1144	  22568	  49304	   c098	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+12:02:13 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:02:29 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25592	   1144	  22568	  49304	   c098	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+12:02:31 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:03:35 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25592	   1144	  22568	  49304	   c098	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+12:03:37 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:04:04 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25592	   1144	  22568	  49304	   c098	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+12:04:13 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:09:16 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:09:52 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25592	   1144	  22568	  49304	   c098	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:10:01 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:10:50 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37684	   2184	  22632	  62500	   f424	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:10:57 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:11:05 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37604	   2184	  22632	  62420	   f3d4	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:11:07 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:14:37 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:95:5: warning: implicit declaration of function 'count_bits'; did you mean 'outbyte'? [-Wimplicit-function-declaration]
+     count_bits(numberTable[i]);
+     ^~~~~~~~~~
+     outbyte
+../src/main.c:85:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:113:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:112:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `inputMenu':
+C:\Users\sebas\Desktop\newSDUPproject\zynqBezPar\sumator\sumator.sdk\sumator_app\Debug/../src/main.c:95: undefined reference to `count_bits'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: sumator_app.elf] Error 1
+14:15:44 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:85:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:113:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:112:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125804	   2576	  23328	 151708	  2509c	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:17:21 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:63:13: error: 'liczby_do_zesumowania' undeclared (first use in this function)
+    arg |= ((liczby_do_zesumowania[i] >> j) & 1) << i;
+             ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c:63:13: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: In function 'inputMenu':
+../src/main.c:84:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:112:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:111:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+14:17:33 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:63:13: error: 'liczby_do_zesumowania' undeclared (first use in this function)
+    arg |= ((liczby_do_zesumowania[i] >> j) & 1) << i;
+             ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c:63:13: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: In function 'inputMenu':
+../src/main.c:84:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:112:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:111:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+14:17:39 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'calculate_sum':
+../src/main.c:63:13: error: 'liczby_do_zesumowania' undeclared (first use in this function)
+    arg |= ((liczby_do_zesumowania[i] >> j) & 1) << i;
+             ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c:63:13: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: In function 'inputMenu':
+../src/main.c:84:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:112:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:111:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+14:17:41 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:84:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:112:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:111:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125796	   2576	  23328	 151700	  25094	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:17:45 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:81:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:109:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:108:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125796	   2576	  23328	 151700	  25094	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:18:01 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:81:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:109:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:108:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+../src/main.c: In function 'calculate_sum':
+../src/main.c:76:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125796	   2576	  23328	 151700	  25094	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:18:11 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:110:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:109:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 124084	   2580	  23328	 149992	  249e8	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:18:24 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:110:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:109:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125796	   2576	  23328	 151700	  25094	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:18:52 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:110:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:109:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125868	   2576	  23328	 151772	  250dc	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:23:36 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:110:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:109:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125180	   2576	  23328	 151084	  24e2c	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:23:44 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:110:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:109:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125180	   2576	  23328	 151084	  24e2c	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:23:49 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:24:54 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:111:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:110:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125180	   2576	  23328	 151084	  24e2c	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:24:57 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:25:11 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:25:41 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:26:06 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:111:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:110:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 107396	   2576	  23328	 133300	  208b4	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:26:07 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:27:02 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:111:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:110:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 107396	   2576	  23328	 133300	  208b4	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:27:05 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:27:20 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:111:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:110:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 107396	   2576	  23328	 133300	  208b4	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:27:45 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:111:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:110:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125460	   2576	  23328	 151364	  24f44	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:27:48 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:28:21 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:111:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:110:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 107612	   2576	  23328	 133516	  2098c	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:28:55 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:94:9: warning: passing argument 1 of 'print' makes pointer from integer without a cast [-Wint-conversion]
+   print('\n');
+         ^~~~
+In file included from ../../sumator_app_bsp/ps7_cortexa9_0/include/xil_io.h:61:0,
+                 from ../src/main.c:20:
+../../sumator_app_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: expected 'const char8 * {aka const char *}' but argument is of type 'int'
+ void print( const char8 *ptr);
+      ^~~~~
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:113:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:112:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 107700	   2576	  23328	 133604	  209e4	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:28:57 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:29:29 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:95:9: warning: multi-character character constant [-Wmultichar]
+   print('\n\r');
+         ^~~~~~
+../src/main.c:95:9: warning: passing argument 1 of 'print' makes pointer from integer without a cast [-Wint-conversion]
+In file included from ../../sumator_app_bsp/ps7_cortexa9_0/include/xil_io.h:61:0,
+                 from ../src/main.c:20:
+../../sumator_app_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: expected 'const char8 * {aka const char *}' but argument is of type 'int'
+ void print( const char8 *ptr);
+      ^~~~~
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:114:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:113:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 107700	   2576	  23328	 133604	  209e4	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:29:31 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:29:42 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:114:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:113:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 107708	   2576	  23328	 133612	  209ec	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:29:44 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:30:56 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:104:3: error: too many arguments to function 'print'
+   print("[+] %hu, ", numberTable[i]);
+   ^~~~~
+In file included from ../../sumator_app_bsp/ps7_cortexa9_0/include/xil_io.h:61:0,
+                 from ../src/main.c:20:
+../../sumator_app_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:118:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:117:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+14:31:05 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:118:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:117:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125644	   2576	  23328	 151548	  24ffc	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:31:13 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:104:3: error: too many arguments to function 'print'
+   print("[+] %hu ", numberTable[i]);
+   ^~~~~
+In file included from ../../sumator_app_bsp/ps7_cortexa9_0/include/xil_io.h:61:0,
+                 from ../src/main.c:20:
+../../sumator_app_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:118:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:117:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+14:31:18 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:118:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:117:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125644	   2576	  23328	 151548	  24ffc	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:31:20 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:31:40 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:118:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:117:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125644	   2576	  23328	 151548	  24ffc	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:31:42 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:32:35 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:119:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:118:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125716	   2576	  23328	 151620	  25044	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:32:43 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:33:15 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:110:2: error: too many arguments to function 'print'
+  print("%d \n\r", sum);
+  ^~~~~
+In file included from ../../sumator_app_bsp/ps7_cortexa9_0/include/xil_io.h:61:0,
+                 from ../src/main.c:20:
+../../sumator_app_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:119:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:118:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+14:33:18 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:110:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+  printf("%d \n\r", sum);
+          ~^
+          %ld
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:119:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:118:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125716	   2576	  23328	 151620	  25044	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:33:32 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:110:12: warning: format '%hu' expects argument of type 'int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+  printf("%hu \n\r", sum);
+          ~~^
+          %lu
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:119:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:118:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125724	   2576	  23328	 151628	  2504c	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:33:44 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:119:14: warning: unused variable 'numberOfBits' [-Wunused-variable]
+     uint64_t numberOfBits;
+              ^~~~~~~~~~~~
+../src/main.c:118:13: warning: unused variable 'numberOfNumber' [-Wunused-variable]
+     uint8_t numberOfNumber;
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125724	   2576	  23328	 151628	  2504c	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:33:52 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125724	   2576	  23328	 151628	  2504c	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:33:53 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:34:20 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:82:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125724	   2576	  23328	 151628	  2504c	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:34:23 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:34:42 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:81:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125716	   2576	  23328	 151620	  25044	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:34:52 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:87:2: error: too many arguments to function 'print'
+  print("%d \n\r", numberOfNumber);
+  ^~~~~
+In file included from ../../sumator_app_bsp/ps7_cortexa9_0/include/xil_io.h:61:0,
+                 from ../src/main.c:20:
+../../sumator_app_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/main.c:81:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+14:34:53 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:81:10: warning: unused variable 'numberOfBits' [-Wunused-variable]
+  uint8_t numberOfBits;
+          ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125716	   2576	  23328	 151620	  25044	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:35:48 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125828	   2576	  23328	 151732	  250b4	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:35:53 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:37:56 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125828	   2576	  23328	 151732	  250b4	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:38:01 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:38:32 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:115:2: error: too many arguments to function 'print'
+  print("%lu \n\r", sum);
+  ^~~~~
+In file included from ../../sumator_app_bsp/ps7_cortexa9_0/include/xil_io.h:61:0,
+                 from ../src/main.c:20:
+../../sumator_app_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+14:57:58 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:123:27: error: 'debug' undeclared (first use in this function); did you mean 'setbuf'?
+  xil_printf("\n %d \n\r", debug);
+                           ^~~~~
+                           setbuf
+../src/main.c:123:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:122:11: warning: unused variable 'sum' [-Wunused-variable]
+  uint32_t sum = calculate_sum(numberTable, numberOfNumber, numberOfBits);
+           ^~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+14:58:11 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 126020	   2576	  23328	 151924	  25174	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+14:58:27 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:59:00 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:123:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+  printf("\n %d \n\r", sum);
+             ~^
+             %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 126020	   2576	  23328	 151924	  25174	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+15:00:53 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:118:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+  printf("\n %d \n\r", sum);
+             ~^
+             %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125972	   2576	  23328	 151876	  25144	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+15:01:16 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:118:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+  printf("\n %d \n\r", sum);
+             ~^
+             %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125972	   2576	  23328	 151876	  25144	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+15:02:18 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:118:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+  printf("\n %d \n\r", sum);
+             ~^
+             %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125972	   2576	  23328	 151876	  25144	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+15:54:52 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:118:15: warning: format '%hu' expects argument of type 'int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+  printf("\n %hu \n\r", sum);
+             ~~^
+             %lu
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125980	   2576	  23328	 151884	  2514c	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+15:55:08 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125980	   2576	  23328	 151884	  2514c	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+15:55:27 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:57:03 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:119:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("\n\n", sum);
+         ^~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125980	   2576	  23328	 151884	  2514c	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+15:57:05 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:05:18 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:06:05 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:119:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("\n\n", sum);
+         ^~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125980	   2576	  23328	 151884	  2514c	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+16:06:12 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125980	   2576	  23328	 151884	  2514c	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+16:06:35 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:107:12: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'int' [-Wformat=]
+  printf("%lu asdasd\n\r", numberOfBits);
+          ~~^
+          %u
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125996	   2576	  23328	 151900	  2515c	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+16:06:40 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 125996	   2576	  23328	 151900	  2515c	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+16:06:42 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:09:50 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 126060	   2576	  23328	 151964	  2519c	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+16:09:55 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:10:13 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 126060	   2576	  23328	 151964	  2519c	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+16:10:15 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:10:21 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:10:21 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:11:10 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:11:43 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 126060	   2576	  23328	 151964	  2519c	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+16:11:46 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:12:36 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 126060	   2576	  23328	 151964	  2519c	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+16:12:38 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:12:42 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:13:24 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 126068	   2576	  23328	 151972	  251a4	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+16:14:18 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 126068	   2576	  23328	 151972	  251a4	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+16:14:21 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:16:05 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:102:12: warning: format '%hu' expects argument of type 'short unsigned int *', but argument 2 has type 'uint32_t * {aka long unsigned int *}' [-Wformat=]
+   scanf("%hu", &numberTable[i]);
+          ~~^   ~~~~~~~~~~~~~~~
+          %lu
+../src/main.c:116:13: warning: format '%hu' expects argument of type 'int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+   printf("%hu, ", numberTable[i]);
+           ~~^     ~~~~~~~~~~~~~~
+           %lu
+../src/main.c:121:31: warning: passing argument 1 of 'calculate_sum' from incompatible pointer type [-Wincompatible-pointer-types]
+  uint32_t sum = calculate_sum(numberTable, numberOfNumber, numberOfBits);
+                               ^~~~~~~~~~~
+../src/main.c:59:10: note: expected 'uint16_t * {aka short unsigned int *}' but argument is of type 'uint32_t * {aka long unsigned int *}'
+ uint32_t calculate_sum(uint16_t *arrayOfNumbers, uint8_t number_of_numbers, uint8_t numberOfBits)
+          ^~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 126004	   2576	  23328	 151908	  25164	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+16:16:21 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:102:12: warning: format '%hu' expects argument of type 'short unsigned int *', but argument 2 has type 'uint32_t * {aka long unsigned int *}' [-Wformat=]
+   scanf("%hu", &numberTable[i]);
+          ~~^   ~~~~~~~~~~~~~~~
+          %lu
+../src/main.c:116:13: warning: format '%hu' expects argument of type 'int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+   printf("%hu, ", numberTable[i]);
+           ~~^     ~~~~~~~~~~~~~~
+           %lu
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 126004	   2576	  23328	 151908	  25164	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+16:17:14 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 126004	   2576	  23328	 151908	  25164	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+16:17:18 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:23:51 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:111:43: error: expected expression before '>' token
+  if(numberOfBits == 32 && numberOfNumber => 1)
+                                           ^
+../src/main.c:114:3: error: expected ';' before 'printf'
+   printf("\n\r");
+   ^~~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+16:24:00 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:114:3: error: expected ';' before 'printf'
+   printf("\n\r");
+   ^~~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+16:24:33 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:114:3: error: expected ';' before 'printf'
+   printf("\n\r");
+   ^~~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+16:25:52 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:114:3: error: expected ';' before 'printf'
+   printf("\n\r");
+   ^~~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+16:26:01 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 126108	   2576	  23328	 152012	  251cc	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+16:26:04 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:04:33 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 126004	   2576	  23328	 151908	  25164	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+17:04:43 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:06:02 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:08:30 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:92:12: warning: format '%hhu' expects argument of type 'unsigned char *', but argument 2 has type 'uint16_t * {aka short unsigned int *}' [-Wformat=]
+  scanf("%hhu", &numberOfNumber);
+         ~~~^   ~~~~~~~~~~~~~~~
+         %hu
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 126004	   2576	  23328	 151908	  25164	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+17:08:37 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 126004	   2576	  23328	 151908	  25164	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+17:09:10 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'inputMenu':
+../src/main.c:92:11: warning: format '%hu' expects argument of type 'short unsigned int *', but argument 2 has type 'uint8_t * {aka unsigned char *}' [-Wformat=]
+  scanf("%hu", &numberOfNumber);
+         ~~^   ~~~~~~~~~~~~~~~
+         %hhu
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 126004	   2576	  23328	 151908	  25164	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+17:09:14 **** Auto Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sumator_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: sumator_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sumator_app_bsp/ps7_cortexa9_0/lib -o "sumator_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sumator_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sumator_app.elf  |tee "sumator_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 126004	   2576	  23328	 151908	  25164	sumator_app.elf
+'Finished building: sumator_app.elf.size'
+' '
+17:11:52 **** Incremental Build of configuration Debug for project sumator_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.

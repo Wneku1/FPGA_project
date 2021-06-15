@@ -1,0 +1,450 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Jun 13 10:11:30 2021
+# Process ID: 20656
+# Current directory: c:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/edit_sum_ip_v1_0.runs/synth_1
+# Command line: vivado.exe -log sum_ip_v1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sum_ip_v1_0.tcl
+# Log file: c:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/edit_sum_ip_v1_0.runs/synth_1/sum_ip_v1_0.vds
+# Journal file: c:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/edit_sum_ip_v1_0.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source sum_ip_v1_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/users/sebas/desktop/newzdupproject/zynqbezpar/ip_repo/edit_sum_ip_v1_0.cache/ip 
+Command: synth_design -top sum_ip_v1_0 -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 15548 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 391.672 ; gain = 102.758
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'sum_ip_v1_0' [c:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sum_ip_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'sum_ip_v1_0_S00_AXI' [c:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sum_ip_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-226] default block is never used [c:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sum_ip_v1_0_S00_AXI.v:231]
+INFO: [Synth 8-226] default block is never used [c:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sum_ip_v1_0_S00_AXI.v:372]
+INFO: [Synth 8-6157] synthesizing module 'sumator' [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:3]
+WARNING: [Synth 8-324] index 32 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 33 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 34 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 35 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 36 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 37 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 38 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 39 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 40 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 41 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 42 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 43 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 44 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 45 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 46 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 47 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 48 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 49 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 50 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 51 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 52 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 53 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 54 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 55 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 56 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 57 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 58 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 59 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 60 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 61 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-324] index 62 out of range [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:47]
+WARNING: [Synth 8-6014] Unused sequential element tmp_reg was removed.  [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:44]
+INFO: [Synth 8-6155] done synthesizing module 'sumator' (1#1) [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'sum_ip_v1_0_S00_AXI' (2#1) [c:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sum_ip_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'sum_ip_v1_0' (3#1) [c:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sum_ip_v1_0.v:4]
+WARNING: [Synth 8-3331] design sumator has unconnected port numb_bits[5]
+WARNING: [Synth 8-3331] design sumator has unconnected port numb_bits[4]
+WARNING: [Synth 8-3331] design sumator has unconnected port numb_bits[3]
+WARNING: [Synth 8-3331] design sumator has unconnected port numb_bits[2]
+WARNING: [Synth 8-3331] design sumator has unconnected port numb_bits[1]
+WARNING: [Synth 8-3331] design sumator has unconnected port numb_bits[0]
+WARNING: [Synth 8-3331] design sum_ip_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design sum_ip_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design sum_ip_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design sum_ip_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design sum_ip_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design sum_ip_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 447.375 ; gain = 158.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 447.375 ; gain = 158.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 447.375 ; gain = 158.461
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-5544] ROM "input_bit_level" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "input_bit_level" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 447.375 ; gain = 158.461
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   9 Input      5 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 3     
+	   8 Input      5 Bit       Adders := 2     
+	   7 Input      5 Bit       Adders := 2     
+	   6 Input      5 Bit       Adders := 2     
+	   5 Input      5 Bit       Adders := 2     
+	   4 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 2     
+	   9 Input      4 Bit       Adders := 1     
+	   8 Input      4 Bit       Adders := 1     
+	   7 Input      4 Bit       Adders := 1     
+	   6 Input      4 Bit       Adders := 1     
+	   5 Input      4 Bit       Adders := 1     
+	   4 Input      4 Bit       Adders := 1     
+	   3 Input      4 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   5 Input      3 Bit       Adders := 1     
+	   4 Input      3 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
+	   3 Input      2 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 7     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
++---Multipliers : 
+	                32x32  Multipliers := 1     
++---Muxes : 
+	   5 Input     32 Bit        Muxes := 2     
+	   3 Input     32 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 38    
+	   4 Input     32 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 11    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module sumator 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   9 Input      5 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 3     
+	   8 Input      5 Bit       Adders := 2     
+	   7 Input      5 Bit       Adders := 2     
+	   6 Input      5 Bit       Adders := 2     
+	   5 Input      5 Bit       Adders := 2     
+	   4 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 2     
+	   9 Input      4 Bit       Adders := 1     
+	   8 Input      4 Bit       Adders := 1     
+	   7 Input      4 Bit       Adders := 1     
+	   6 Input      4 Bit       Adders := 1     
+	   5 Input      4 Bit       Adders := 1     
+	   4 Input      4 Bit       Adders := 1     
+	   3 Input      4 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   5 Input      3 Bit       Adders := 1     
+	   4 Input      3 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
+	   3 Input      2 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	                1 Bit    Registers := 1     
++---Multipliers : 
+	                32x32  Multipliers := 1     
++---Muxes : 
+	   5 Input     32 Bit        Muxes := 2     
+	   3 Input     32 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 36    
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+Module sum_ip_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   4 Input     32 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/sum_ip_1.0/hdl/sumator.sv:50]
+DSP Report: Generating DSP sum_ip_v1_0_S00_AXI_inst/UUT/output_data1, operation Mode is: A*B.
+DSP Report: operator sum_ip_v1_0_S00_AXI_inst/UUT/output_data1 is absorbed into DSP sum_ip_v1_0_S00_AXI_inst/UUT/output_data1.
+DSP Report: operator sum_ip_v1_0_S00_AXI_inst/UUT/output_data1 is absorbed into DSP sum_ip_v1_0_S00_AXI_inst/UUT/output_data1.
+DSP Report: Generating DSP sum_ip_v1_0_S00_AXI_inst/UUT/output_data1, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator sum_ip_v1_0_S00_AXI_inst/UUT/output_data1 is absorbed into DSP sum_ip_v1_0_S00_AXI_inst/UUT/output_data1.
+DSP Report: operator sum_ip_v1_0_S00_AXI_inst/UUT/output_data1 is absorbed into DSP sum_ip_v1_0_S00_AXI_inst/UUT/output_data1.
+WARNING: [Synth 8-3331] design sum_ip_v1_0 has unconnected port s00_axi_awprot[2]
+WARNING: [Synth 8-3331] design sum_ip_v1_0 has unconnected port s00_axi_awprot[1]
+WARNING: [Synth 8-3331] design sum_ip_v1_0 has unconnected port s00_axi_awprot[0]
+WARNING: [Synth 8-3331] design sum_ip_v1_0 has unconnected port s00_axi_arprot[2]
+WARNING: [Synth 8-3331] design sum_ip_v1_0 has unconnected port s00_axi_arprot[1]
+WARNING: [Synth 8-3331] design sum_ip_v1_0 has unconnected port s00_axi_arprot[0]
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sum_ip_v1_0_S00_AXI_inst/UUT/input_bit_level_reg[31] )
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[24]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[25]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[25]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[26]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[26]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[27]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[27]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[28]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[28]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[29]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[29]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[30]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[30]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[31]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[1]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[1]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[2]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[2]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[3]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[3]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[4]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[4]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[5]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[5]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[6]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[6]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[7]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[7]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[8]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[8]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[9]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[9]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[10]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[10]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[11]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[11]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[12]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[12]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[13]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[13]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[14]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[14]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[15]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[15]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[16]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[16]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[17]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[17]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[18]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[18]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[19]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[19]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[20]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[20]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[21]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[21]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[22]'
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[22]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[23]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sum_ip_v1_0_S00_AXI_inst/UUT/processDone_reg[23] )
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sum_ip_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'sum_ip_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'sum_ip_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sum_ip_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 671.871 ; gain = 382.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|sum_ip_v1_0 | A*B            | 18     | 7      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|sum_ip_v1_0 | (PCIN>>17)+A*B | 16     | 7      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 671.871 ; gain = 382.957
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 671.871 ; gain = 382.957
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 671.871 ; gain = 382.957
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 671.871 ; gain = 382.957
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 671.871 ; gain = 382.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 671.871 ; gain = 382.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 671.871 ; gain = 382.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 671.871 ; gain = 382.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |CARRY4  |     8|
+|3     |DSP48E1 |     2|
+|4     |LUT1    |     1|
+|5     |LUT2    |    44|
+|6     |LUT3    |    47|
+|7     |LUT4    |    43|
+|8     |LUT5    |   121|
+|9     |LUT6    |   199|
+|10    |FDRE    |   203|
+|11    |FDSE    |     1|
+|12    |IBUF    |    47|
+|13    |OBUF    |    41|
++------+--------+------+
+
+Report Instance Areas: 
++------+---------------------------+--------------------+------+
+|      |Instance                   |Module              |Cells |
++------+---------------------------+--------------------+------+
+|1     |top                        |                    |   758|
+|2     |  sum_ip_v1_0_S00_AXI_inst |sum_ip_v1_0_S00_AXI |   669|
+|3     |    UUT                    |sumator             |   481|
++------+---------------------------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 671.871 ; gain = 382.957
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 50 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 671.871 ; gain = 382.957
+Synthesis Optimization Complete : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 671.871 ; gain = 382.957
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 719.773 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+59 Infos, 51 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 719.773 ; gain = 443.902
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 719.773 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'c:/Users/sebas/Desktop/newZDUPproject/zynqBezPar/ip_repo/edit_sum_ip_v1_0.runs/synth_1/sum_ip_v1_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file sum_ip_v1_0_utilization_synth.rpt -pb sum_ip_v1_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Jun 13 10:11:47 2021...
